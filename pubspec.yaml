@@ -1,0 +1,26 @@
+name: retrofit_testing
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  logging:
+  flutter: 
+    sdk: flutter
+  retrofit: ^4.0.1
+
+dev_dependencies: 
+  flutter_lints: 
+  retrofit_generator: 
+  build_runner: 
+  json_serializable:  
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
